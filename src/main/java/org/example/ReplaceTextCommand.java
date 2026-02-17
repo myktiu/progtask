@@ -1,6 +1,9 @@
 package org.example;
 
-
+/**
+ * A {@link TextCommand} parent class for replacing text commands. Ressopnsible
+ * for replacing each appearance of specific word in the text with new words
+ */
 public class ReplaceTextCommand implements TextCommand {
 
     private final String target;
