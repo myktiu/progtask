@@ -1,5 +1,7 @@
 package org.example;
-
+/**
+ * A {@link TextCommand} child of CapitalizeTextCommand which capitalize specific word
+ */
 public class CapitalizeSelectionTextCommand extends CapitalizeTextCommand {
 
     private final String selection;
