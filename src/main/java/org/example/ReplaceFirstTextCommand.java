@@ -1,5 +1,8 @@
 package org.example;
-
+/**
+ * A {@link TextCommand} which is a child of ReplaceTextCommand. Replace only
+ * first appearance of the specific word
+ */
 public class ReplaceFirstTextCommand extends ReplaceTextCommand {
 
     public ReplaceFirstTextCommand(String target, String replacement) {
