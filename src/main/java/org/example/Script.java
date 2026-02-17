@@ -1,7 +1,9 @@
 package org.example;
 
 import java.util.List;
-
+/**
+ * A {@link TextCommand} which allows to store and execute several commands
+ */
 public class Script implements TextCommand {
 
     private final List<TextCommand> commands;
