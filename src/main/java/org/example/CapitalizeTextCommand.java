@@ -1,5 +1,8 @@
 package org.example;
-
+/**
+ * A {@link TextCommand} parent class for all CapitalizeTextCommands. Capitalize
+ * first letter in the text
+ */
 public class CapitalizeTextCommand implements TextCommand {
 
     @Override
